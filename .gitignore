@@ -1,0 +1,22 @@
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# --- Docker ---
+# Ignoramos overrides locales que no deben ir a producción
+docker-compose.override.yml
+
+# --- Sistema Operativo (Basura común) ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs (Configuraciones de editor) ---
+.vscode/
+.idea/
+*.swp
+
